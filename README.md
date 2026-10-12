@@ -101,4 +101,4 @@ No Insomnia, vá em **Import**, escolha o arquivo e teste.
 
 ---
 
-👨‍💻 Desenvolvido por **[Seu nome]** · FIAP · Domain Driven Design Using Java
+👨‍💻 Desenvolvido por **Thays Lira** · FIAP · Domain Driven Design Using Java
