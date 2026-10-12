@@ -1,0 +1,65 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_source": "insomnia.desktop.app:v8.0.0",
+  "resources": [
+    {
+      "_id": "wrk_megafarma",
+      "_type": "workspace",
+      "name": "API Megafarma",
+      "scope": "collection"
+    },
+    {
+      "_id": "req_wrk_megafarma_0",
+      "_type": "request",
+      "parentId": "wrk_megafarma",
+      "name": "findAll",
+      "method": "GET",
+      "url": "http://localhost:8080/megafarma",
+      "body": {},
+      "headers": [],
+      "metaSortKey": 0
+    },
+    {
+      "_id": "req_wrk_megafarma_1",
+      "_type": "request",
+      "parentId": "wrk_megafarma",
+      "name": "findByCodigo",
+      "method": "GET",
+      "url": "http://localhost:8080/megafarma/1",
+      "body": {},
+      "headers": [],
+      "metaSortKey": -1
+    },
+    {
+      "_id": "req_wrk_megafarma_2",
+      "_type": "request",
+      "parentId": "wrk_megafarma",
+      "name": "save",
+      "method": "POST",
+      "url": "http://localhost:8080/megafarma",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"nome\": \"Dipirona\",\n  \"preco\": 33.5,\n  \"dataDeFabricacao\": \"2026-01-10\",\n  \"dataDeValidade\": \"2027-01-10\"\n}"
+      },
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "metaSortKey": -2
+    },
+    {
+      "_id": "req_wrk_megafarma_3",
+      "_type": "request",
+      "parentId": "wrk_megafarma",
+      "name": "delete",
+      "method": "DELETE",
+      "url": "http://localhost:8080/megafarma/3",
+      "body": {},
+      "headers": [],
+      "metaSortKey": -3
+    }
+  ]
+}
